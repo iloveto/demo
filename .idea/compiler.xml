@@ -9,17 +9,21 @@
         <module name="httpClientDemo" />
         <module name="designpattern" />
         <module name="schedule" />
-        <module name="DistributedLock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="delete" target="1.8" />
+      <module name="demo (1) (com.example)" target="1.8" />
+      <module name="DistributedLock" target="1.8" />
+      <module name="distributedLock" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="DistributedLock" options="-parameters" />
       <module name="delete" options="-parameters" />
+      <module name="demo (1) (com.example)" options="-parameters" />
+      <module name="distributedLock" options="-parameters" />
     </option>
   </component>
 </project>
