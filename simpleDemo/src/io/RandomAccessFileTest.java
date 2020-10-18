@@ -1,10 +1,7 @@
 package io;
 
-import java.awt.*;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
-import java.util.concurrent.Executor;
 
 public class RandomAccessFileTest {
     private final static String filePath_r = "c:\\Users\\study\\Desktop\\test_r.txt";
