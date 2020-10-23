@@ -1,4 +1,4 @@
-package reflect;
+package reflect.longlongago;
 
 public class Base {
     static int num = 1;

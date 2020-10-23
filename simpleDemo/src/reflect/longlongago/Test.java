@@ -1,4 +1,4 @@
-package reflect;
+package reflect.longlongago;
 
 
 class Base2 {
@@ -17,7 +17,7 @@ public class Test {
     public static void main(String[] args) {
         Class c = null;
         try {
-            c = Class.forName("reflect.Derived");
+            c = Class.forName("reflect.longlongago.Derived");
         } catch (ClassNotFoundException e) {
             System.out.println("找不到Base类");
             System.exit(1);

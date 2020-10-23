@@ -1,4 +1,4 @@
-package reflect;
+package reflect.longlongago;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Main {
         System.out.println("------");
         // 会初始化
         try {
-            Class clazz2 = Class.forName("reflect.Base");
+            Class clazz2 = Class.forName("reflect.longlongago.Base");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
